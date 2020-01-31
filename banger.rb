@@ -20,3 +20,7 @@ end
   sleep 3
   x = x+0.1
 end
+
+with_fx :reverb do
+  sample banger, rate: 2
+end
